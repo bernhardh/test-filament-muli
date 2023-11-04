@@ -7,7 +7,7 @@ use Filament\Widgets\ChartWidget;
 
 class DemoChart extends ChartWidget
 {
-    protected static ?string $heading = 'Chart';
+    protected static ?string $heading = 'Line Chart';
     protected static ?string $pollingInterval = null;
     protected int | string | array $columnSpan = "full";
 
